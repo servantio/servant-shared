@@ -7,7 +7,8 @@ namespace Servant.Shared.Objects
     {
         public IisSite()
         {
-            Bindings = new List<Binding>();
+            Bindings = new List<Binding>() { new Binding { IpAddress = "*" } };
+            Applications = new List<SiteApplication>();
             LogFileDirectory = @"%SystemDrive%\inetpub\logs\LogFiles";
             SitePath = @"%SystemDrive%\inetpub\wwwroot";
         }
