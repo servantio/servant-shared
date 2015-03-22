@@ -17,5 +17,6 @@ namespace Servant.Shared.Objects
         public int? ServerId { get; set; }
         public bool? Success { get; set; }
         public string Comment { get; set; }
+
     }
 }

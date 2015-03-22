@@ -8,6 +8,11 @@ namespace Servant.Shared.Communication
         public string JsonObject { get; set; }
         public string Value { get; set; }
         public Guid Guid { get; set; }
+
+        public CommandRequest()
+        {
+            Guid = Guid.NewGuid();
+        }
     }
 
     public enum CommandRequestType
