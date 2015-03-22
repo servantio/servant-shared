@@ -1,4 +1,4 @@
-﻿namespace Servant.Shared.Enums
+﻿namespace Servant.Shared.Objects.Enums
 {
     public enum DeploymentResponseType
     {

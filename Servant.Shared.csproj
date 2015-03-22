@@ -63,9 +63,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Enums\DeploymentResponseType.cs" />
-    <Compile Include="Enums\SiteResult.cs" />
-    <Compile Include="Enums\SiteStartResult.cs" />
+    <Compile Include="Objects\Enums\DeploymentResponseType.cs" />
+    <Compile Include="Objects\Enums\SiteResult.cs" />
+    <Compile Include="Objects\Enums\SiteStartResult.cs" />
     <Compile Include="Helpers\FileSystemHelper.cs" />
     <Compile Include="Helpers\NetFrameworkHelper.cs" />
     <Compile Include="Helpers\OperatingSystemHelper.cs" />

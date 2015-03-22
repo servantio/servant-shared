@@ -12,6 +12,7 @@ namespace Servant.Shared.Objects
         public Protocol Protocol
         {
             get { return CertificateThumbprint != null ? Protocol.https : Protocol.http; }
+            set { }
         }
 
         public string Hostname { get; set; }
