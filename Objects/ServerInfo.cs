@@ -1,4 +1,6 @@
-﻿namespace Servant.Shared.Objects
+﻿using System.Collections.Generic;
+
+namespace Servant.Shared.Objects
 {
     public class ServerInfo
     {
@@ -7,5 +9,6 @@
         public string OperatingSystem { get; set; }
         public int TotalSites { get; set; }
         public int TotalApplicationPools { get; set; }
+        public IEnumerable<string> InstalledModules { get; set; }
     }
 }
