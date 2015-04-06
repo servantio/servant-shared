@@ -37,6 +37,7 @@ namespace Servant.Shared.Communication
         DeleteApplicationPool,
         GetAll,
         CreateApplicationPool,
-        RollbackDeployment
+        RollbackDeployment,
+        WipeIisConfiguration
     }
 }
