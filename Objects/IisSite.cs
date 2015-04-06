@@ -23,5 +23,6 @@ namespace Servant.Shared.Objects
         public InstanceState ApplicationPoolState { get; set; }
         public List<Binding> Bindings { get; set; }
         public List<SiteApplication> Applications { get; set; }
+        public int TotalFilesInSitePath { get; set; }
     }
 }
