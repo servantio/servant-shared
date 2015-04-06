@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 
 namespace Servant.Shared.Objects
 {
@@ -9,5 +10,6 @@ namespace Servant.Shared.Objects
         public List<Certificate> Certificates { get; set; }
         public List<string> FrameworkVersions { get; set; }
         public ApplicationPool DefaultApplicationPool { get; set; }
+        public List<string> InstalledModules { get; set; }
     }
 }
