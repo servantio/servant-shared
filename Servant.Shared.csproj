@@ -52,6 +52,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Helpers\CryptoHelper.cs" />
     <Compile Include="Objects\BaseObject.cs" />
     <Compile Include="Objects\Deployment.cs" />
     <Compile Include="Objects\DeploymentResponse.cs" />
